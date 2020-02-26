@@ -57,7 +57,7 @@ spec:
     rules:
         -   http:
                 paths:
-                    -   path: /teama(/|$)(.*)
+                    -   path: /autonomous-sandwich(/|$)(.*)
                         backend:
                             serviceName: autonomous-sandwich-microservice-service
                             servicePort: 30201
